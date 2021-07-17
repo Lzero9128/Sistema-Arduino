@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SDPF</title>
+    <link rel="shortcut icon" href="img/12.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+
+    
+</head>
+
+<body>
+    <header>
+        <nav>           
+            <a href="https://stem.ubidots.com/app/devices/60afee5e1d84720ce2105f5f">DATOS TIEMPO REAL</a>
+            <a href="http://sistemaarduinobd.infinityfreeapp.com/">BASE DE DATOS</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Diseño de un Sitio Web para la Monitorizacion</h1>
+            <h2>de Parametros Fisicos</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Información</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/19.jpg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Conexión</h3>
+                    <p>Se muestra el esquema de conexión donde estan dos modalidades para la pantalla LCD 20X4 mostrando 
+                        tambien pines donde se conecta cada uno de los sensores utilizados.</p>
+                    <h3><span>2</span>Pantallas LCD </h3>
+                    <p>Las pantallas mostradas en el esquema muestran la configuracion tanto con el modulo i2c y sin este 
+                        modulo ya que de ambas formas se puede conectar y mostrar los datos.</p>
+                        <h3><span>3</span>Modulo w5100 y Arduino Mega</h3>
+                    <p>El Modulo w5100 se moenta sobre el Arduino Mega haciendo coincidir los pines ISCP, posteriormente 
+                        se programa la tarjeta Arduino de forma habitual incluyendo la libreria Ethernet.h para que se active
+                        el modulo w5100 y trabaje en conjunto con el Arduino.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Componentes</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/14.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/13.png" alt="">
+                            <p>Sensor DHt11</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/15.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/13.png" alt="">
+                            <p>Sensor FC-28</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/16.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/13.png" alt="">
+                            <p>Sensor FC-28</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/17.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/13.png" alt="">
+                            <p>LCD 20X4</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/18.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/13.png" alt="">
+                            <p>Modulo i2c</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/20.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/13.png" alt="">
+                            <p>Arduino Mega 2560</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/21.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/13.png" alt="">
+                            <p>Ethernet w5100</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/22.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/13.png" alt="">
+                            <p>Jumpers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Ubidots</h2>
+            <div class="cards">
+                
+                <div class="card">
+                    <img src="img/27.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>¿Que es Ubidots?</h4>
+                        <p>Es una plataforma que ayuda con el manejo de datos 
+                            para proyectos Iot, que puede procesar una gran cantidad 
+                            de datos, por cada sensor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Datos</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/24.png" alt="">
+                        <h3>Nube</h3>
+                        <p>Se muestra como se ven los datos en la nube en tiempo real</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/23.jpg" alt="">
+                        <h3>Software Utilizado</h3>
+                        <p>1.Arduino, 2.Fritzing, 3.MySQL,
+                           4.Python, 5.PHP, 6.Xampp
+                           7.Ubidots, 8.Html, 9.CSS.  </p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/26.jpg" alt="">
+                        <h3>Local</h3>
+                        <p>Muestra la Pantalla con datos en tiempo real pero de forma Local 
+                           sin conexión a internet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+                      
+            <div class="content-foo">
+                <h4>Asesor Interno/Externo</h4>
+                <p>Dr.Leopoldo Gil Antonio. </p>
+            </div>
+
+            <div class="content-foo">
+                <h4>Área</h4>
+                <p>Laboratorio de Reconocimiento de Patrones
+                    y Mineria de Datos.
+                </p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Mario Alexis González Hilario | Proyecto Residencia</h2>
+    </footer>
+</body>
+
+</html>
